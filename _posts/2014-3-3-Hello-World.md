@@ -1,10 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Detecting anomalies in periodic timeseries 
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+In periodic time series it's posible make an aproximation of it using discrete fourier transform given by the following equation:
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+{% raw %}
+  $$S_{t} = \sum_{k = 1}^{N-1} A_{k}\sin(\frac{2k\pi t}{N}) + \sum_{k = 1}^{N-1} B_{k}\cos(\frac{2k\pi t}{N})$$ 
+{% endraw %}
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
