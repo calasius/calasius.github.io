@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Detecting anomalies in periodic timeseries usign gradient descent 
+title: Detecting anomalies in periodic timeseries using gradient descent 
 ---
 
 In periodic time series it's possible make an aproximation of them using discrete fourier transform given by the following equation:
@@ -18,7 +18,7 @@ Then we can express this model for example on tensorflow and find the parameters
 
 In my particular problem the tiemeseries has two seasonings daily and weekly and timeseries buckets are 10 minutes long, then $$N$$ has to be the amount of buckets of 10 minutes in one week.
 
-One interesting thing is that if applying box-cox transformation it makes the learnign proccess faster. 
+One interesting thing is that if applying box-cox transformation it makes the learning faster. 
 
 The box-cox transformation is given by the following equation:
 
@@ -90,7 +90,7 @@ Here is the plot of the previous anomalies on the original timeseries
 
 ## Forecasting
 
-After learned parameters of fourier model it's possible evaluate on futures points in time.
+After learn parameters of fourier model it's possible evaluate on futures points in time.
 
 ![Forecasting](/images/forecasting.png){:class="img-responsive"}
 
