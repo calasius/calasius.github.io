@@ -29,7 +29,7 @@ When $$\lambda = 0$$ then box-cox transformation is like $$\log$$ function. $$\l
 The box-cox transformation maintains the anomalies and reduce the magnitude of the noise, because reduce the scale of timeseries. When using the transformed timeseries the function to learn in simpler than the original. The question is why the learning proccess is faster if applying box-cox transformation? I think that is similar to standarize the input, the gradient is more direct.
 
 
-The tricky part to detect anomalies is make the learned function smoother. We can acomplish that not taking into account the high frequencies in the fourier model. Doing in that way the learned function has less noice, then is more easy to detect anomalies in the original timeseries.
+The tricky part to detect anomalies is make the learned function smoother. We can acomplish that not taking into account the high frequencies in the fourier model. Doing in that way the learned function has less noise, then is more easy to detect anomalies in the original timeseries.
 Filter frequencies has another benefit for learning, the amount of features decrease, then the learning  is faster.
 
 ## Code to learn the parameters in tensorflow
