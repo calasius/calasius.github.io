@@ -23,6 +23,37 @@ We can see that the function has only one minimum. Equating the gradient of the 
 
 ![cost_function](/images/linear_cost_function/analytical_solution.png){:class="img-responsive"}
 
+But we know that if there is more parameters than equations then there is infinite solutions.
+
+The question is given that analytically there are infinite solutions, what happen if I try to solve using gradient descent when I have a dataset with 999 samples and 1000 features each? The logic said this method has to suffer the same problems as normal equations, but given that we allways have in our minds this perfect paraboloid we think that gradient descent has to find a single solution because the paraboliod has only one minimun. But this is not true when there is more parametters than equations, but given that it's is impossible to plot that function when there is more than two parameters I will plot the function in three dimentions and different amount of samples.
+At the end I share the code to plot the cost function depending of the amount of samples.
+
+## Case one sample two features
+
+![cost_function](/images/linear_cost_function/one_sample.png){:class="img-responsive"}
+
+This is what happen whe we have more features than samples, there is a infinite subspace where the cost function reach the minimun and this is coherent with what happend with normal equations. I can reach infinite solutions depending from what point the gradient descent start. 
+
+## Case two samples two features
+
+![cost_function](/images/linear_cost_function/two_samples.png){:class="img-responsive"}
+
+In this case the function has one minimun as normal equations, but this is not a perfect paraboloid.
+
+
+## Case ten samples two features
+
+![cost_function](/images/linear_cost_function/ten_samples.png){:class="img-responsive"}
+
+We can see how the cost function start to reach symetric rotation.
+
+## Case one hundred samples two features
+
+![cost_function](/images/linear_cost_function/one_hundred_samples.png){:class="img-responsive"}
+
+
+
+
 
 
 
