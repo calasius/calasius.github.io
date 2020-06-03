@@ -12,10 +12,10 @@ layout: default
       <thjax Support -->
       <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      </script><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.content | markdownify | strip_html | truncatewords: 30 }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
