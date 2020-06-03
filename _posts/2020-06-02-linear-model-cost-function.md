@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Detecting anomalies in periodic timeseries using gradient descent 
+title: Linear model cost function and gradient descent
 ---
