@@ -19,3 +19,7 @@ The then plot the two dimensional cost function in this way
 
 ![cost_function](/images/linear_cost_function/plot_cost_function.png){:class="img-responsive"}
 
+We can see that the function has only one minimum. Equating the gradient of the cost function to zero and doing some calculation we can arrive at this expression:
+
+
+
