@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Data scientist and machine learning engineer at despegar.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I studied computer science at University of Buenos Aires
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[calasius@gmail.com](mailto:calasius@gmail.com)
