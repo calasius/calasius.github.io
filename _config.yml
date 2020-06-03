@@ -6,7 +6,7 @@
 name: Claudio Gauna
 
 # Short bio or description (displayed in the header)
-description: Data scientist / ML engineer
+description: Data scientist / ML engineer at Despegar
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://media.licdn.com/dms/image/C4E03AQH3ia5iGGpn7A/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=PuZizQE66EbK1FFnsFS0thvuD9zP4wLBGywZ0dt6yNA 
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: calasius
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/claudio-andres-gauna-2b697b97/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
