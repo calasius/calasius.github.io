@@ -9,3 +9,7 @@ I belonged to a group of people thas was studiying the book "Introduction to sta
 
 ![noise](/images/linear_cost_function/linear_regression.png){:class="img-responsive"}
 
+Then they give us the loss function
+
+![cost_function](/images/linear_cost_function/cost_function.png){:class="img-responsive"}
+
