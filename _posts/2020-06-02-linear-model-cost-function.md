@@ -15,7 +15,7 @@ Then they give us the loss function
 
 $$RSS$$ is a funtion of the dataset, different datasets give us different cost functions. In this case is a function of two parameters $$\beta_{1}$$ y $$\beta_{2}$$.
 
-The then plot the two dimensional cost function in this way
+Then they plot the three dimensional cost function in this way
 
 ![cost_function](/images/linear_cost_function/plot_cost_function.png){:class="img-responsive"}
 
@@ -23,7 +23,7 @@ We can see that the function has only one minimum. Equating the gradient of the 
 
 ![cost_function](/images/linear_cost_function/analytical_solution.png){:class="img-responsive"}
 
-But we know that if there is more parameters than equations then there is infinite solutions.
+But we know that if there is more parameters than equations then there are infinite solutions.
 
 The question is given that analytically there are infinite solutions, what happen if I try to solve using gradient descent when I have a dataset with 999 samples and 1000 features each? The logic said this method has to suffer the same problems as normal equations, but given that we allways have in our minds this perfect paraboloid we think that gradient descent has to find a single solution because the paraboliod has only one minimun. But this is not true when there is more parametters than equations, but given that it's is impossible to plot that function when there is more than two parameters I will plot the function in three dimentions with different amount of samples.
 At the end I will share the code to plot the cost function depending of the amount of samples.
