@@ -55,7 +55,10 @@ It surprise me, why the cost function start to present aparently rotational symm
 
 This analysis gave to me an insight that the cost function in linear regression is not a symmetric perfect function it depends of the size of our dataset. And when we have more features than equations the cost funcion has an infinite subspace where the function reach the same minimun causing gradient descent to suffer the same problem as normal equations. This is beautiful for me because given two very different methods to solve linear regression both method behave in the same way "Math is coherent".
 
-In this [notebook](https://github.com/calasius/ISL/blob/master/linear%20regression%20cost%20function.ipynb)
+
+## Code
+
+In this [**Notebook**](https://github.com/calasius/ISL/blob/master/linear%20regression%20cost%20function.ipynb)
 you can find the code to generate the plots. 
 
 
