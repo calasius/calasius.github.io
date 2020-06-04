@@ -95,3 +95,7 @@ After learn parameters of fourier model it's possible evaluate on futures points
 ![Forecasting](/images/forecasting.png){:class="img-responsive"}
 
 
+## Code
+You can find the code in this [**Notebook**](https://github.com/calasius/timeseries/blob/master/fourier-time-series-analysis.ipynb)
+
+
