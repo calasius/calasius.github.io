@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multiple scene image classification
+title: Multiple scenes image classification
 ---
 
 In this post I want to talk about multiple scene image classification and the problems tha I found along the way and the different ideas to overcome those problems.
