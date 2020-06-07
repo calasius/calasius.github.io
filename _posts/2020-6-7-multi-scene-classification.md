@@ -57,8 +57,12 @@ Instead of use hard-code rules as in the previous approach we take the crops and
 This approach improve the multitag classification a reduced a lot the false positive rate that suffer the previous approach.
 
 
-## Some comparative results between heuristic and lstm approach
-![crops](/images/multitag/comparative-results.png){:class="img-responsive" width="2000px"}
+## Some results of lstm approach
+![crops](/images/multitag/results1.png){:class="img-responsive" width="2000px"}
+
+![crops](/images/multitag/results2.png){:class="img-responsive" width="2000px"}
+
+![crops](/images/multitag/results3.png){:class="img-responsive" width="2000px"}
 
 
 
